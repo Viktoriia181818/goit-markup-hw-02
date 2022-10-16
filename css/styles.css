@@ -1,0 +1,75 @@
+:root {
+    --primary-text-color: rgba(117, 117, 117, 1);
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #212121;
+    ;
+}
+
+.logo-link {
+    color: #2196F3 ;
+}
+.logo-header {
+    color: #000000;
+}
+/*цвет основного теста #212121;*/
+
+ /*вторичный цвет текста rgba(117, 117, 117, 1)*/
+
+ /* белый #FFFFFF */
+
+ /*акцент #2196F3;*/
+
+ /* цвет фона F5F5F5 */
+
+  /* вторичный цвет фона #F5F4FA*/
+
+  /* Site-nav */
+  .site-nav .link {
+    color: #212121 ;
+  }
+
+    .site-nav .link:hover ,
+    .site-nav .link:focus {
+        color: #2196F3;
+    }
+
+    .address:hover ,
+    .address:focus {
+        color: #2196F3;
+    }
+
+    .navigation, .logo-headers, .direction {
+    background-color: #2F303A;
+    color: #FFFFFF;
+
+    }
+
+    .section, .section-title, .teachers.title {
+        color: #212121;
+    }
+
+    .others {
+        color:#757575;
+
+    }
+
+    .footer {
+        background-color: #2F303A;
+    }
+
+    .info {
+        color: rgba(255, 255, 255, 0.6);     
+    }
+
+    .button {
+        background-color: #2196F3;
+        color: #FFFFFF;
+    }
+
+
+
