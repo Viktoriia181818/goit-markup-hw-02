@@ -13,6 +13,9 @@ body {
     font-family: Roboto, sans-serif;
     }
     /* Logo */
+    .list {
+        list-style: none;
+    }
 .logo-link {
     color: var(--accent-color) ;
     font-family: Raleway, sans-serif;
@@ -182,5 +185,12 @@ body {
         font-size: 16px;
         line-height: 30px;
  }
- 
- 
+
+.navigation.links {
+    position: absolute;
+        width: 103px;
+        height: 38px;
+        left: 846px;
+        top: 174px;
+        background: #F5F4FA; 
+}
