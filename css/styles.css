@@ -38,7 +38,6 @@ body {
   /* Site-nav */
   .site-nav .link {
     color: var(--title-text-color) ;
-    font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -48,10 +47,14 @@ body {
     .site-nav .link:hover ,
     .site-nav .link:focus {
         color: var(--accent-color);
+        color: var(--accent-color);
     }
-        .site-nav .link:active {
-            color: var(--accent-color);
-        }
+        
+    .site-nav .link.current {
+        color: var(--accent-color);
+        color: var(--accent-color);
+    }    
+        
     /* Address */
     .address,  .tel {
         color: #757575;
@@ -68,7 +71,7 @@ body {
     .address:focus {
         color: var(--accent-color);
     }
-
+    
           
     /* Hero */
     .hero {
@@ -89,6 +92,17 @@ body {
             letter-spacing: 0.06em;
             text-transform: uppercase;
     }
+        .button-order {
+            color: var(--primary-white-color);
+            background-color: var(--accent-color);
+            width: 216px;
+            height: 50px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.9;
+            letter-spacing: 0.06em;
+        }
                 /* Button */
         .button {
         width: 216px;
@@ -105,6 +119,9 @@ body {
 
     
         }
+
+        
+        
         /* Section */
         .title {
                 color: var(--title-text-color);
@@ -154,6 +171,7 @@ body {
     }
     .address-footer,
     .tel-footer {
+    font-style:normal;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-size: 14px;
@@ -173,16 +191,17 @@ body {
     .direction{
         text-decoration: none;
             color: var(--primary-white-color);
-            font-style: 400;
+            font-style: normal;
             font-weight: 400;
             font-size: 14px;
             line-height: 1.7;
             letter-spacing: 0.03em;
     }
-   .direction:hover,
-   .direction:focus, {
-       color: var(--accent-color);
-   }
+   
+        .direction:hover,
+        .direction:focus {
+            color: var(--accent-color);
+        }
 .logo-footer, .direction
  {
     background-color: #2F303A;
@@ -208,21 +227,26 @@ body {
 
  /* Portfolio */
 
-    .button-inside {
-  background-color: #F5F4FA;
-    font-family: Roboto, sans-serif;
-     color: var(--title-text-color);
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1.7;
-     letter-spacing: 0.02em;
-     text-decoration: none;
- }
- 
- .button-inside:hover,
- .button-inside:focus {
-     color: var(--accent-color);
- }
+/* Button */
+.button {
+    color: #212121;
+    font-family: Roboto;
+    background-color: var(--primary-white-color);
+    background-color: #F5F4FA;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    
+}
+
+
+.button:hover,
+.button:focus {
+    color: var(--primary-white-color);
+    background-color:var(--accent-color);
+    }
 
   .info-title {
     color: var(--primary-black-color);
