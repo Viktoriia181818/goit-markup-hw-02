@@ -252,13 +252,13 @@ body {
     color: var(--primary-black-color);
         font-weight: 700;
         font-size: 18px;
-        line-height: 36px;
+        line-height: 2;
  }
 
  .info {
     color: var(--primary-text-color);
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1.9;
  }
 
 .navigation.links {
